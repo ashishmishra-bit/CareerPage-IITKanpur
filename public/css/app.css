@@ -1,4 +1,43 @@
 body {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  height: 4000px;
+}
+
+#menu-area {
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: background 0.5s;
+}
+
+#menu-area ul {
+  width: 500px;
+  justify-content: space-between;
+  list-style: none;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+#menu-area ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu-area.sc-menu {
+  background: #3a277b;
+}
+
+#menu-area.sc-menu a {
+  color: #fff;
 }
