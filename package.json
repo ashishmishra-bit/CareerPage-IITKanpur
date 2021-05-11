@@ -1,12 +1,12 @@
 {
   "name": "career-page",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server.js",
-    "serve": "node server.js"
+    "serve": "node server.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +23,14 @@
     "resolve-url-loader": "3.1.2",
     "sass": "^1.32.8",
     "sass-loader": "10.*"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srishti2001-eng/CareerPage-IITKanpur.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Srishti2001-eng/CareerPage-IITKanpur/issues"
+  },
+  "homepage": "https://github.com/Srishti2001-eng/CareerPage-IITKanpur#readme",
+  "description": ""
 }
