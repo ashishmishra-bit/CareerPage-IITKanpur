@@ -13,14 +13,17 @@ body{
     display: -o-flex;
     display: flex;
     justify-content:space-between;
-    padding: 0 60px;
+    padding:6px 60px;
     position: fixed;
     width: 100%;
     top: 0;
     transition: background 0.5s;
+    background: $primary;
+    // padding-top: 60px;
+    // padding-bottom: 60px;
 }
 #menu-area ul{
-    width: 500px;
+    width: 350px;
     justify-content: space-between;
     list-style: none;
     display: -webkit-flex;
