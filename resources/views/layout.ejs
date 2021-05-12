@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">    -->
     <title>Career Page</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">  -->
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/app.css">
-    
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/app.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- NavBar -->
-    <div id = "menu-area">
+    <div id="menu-area">
         <div class="logo">
             <a href="#">
-                <img src="/img/logo.png" alt="logo">
+                <img src="/img/logo.png" alt="logo" />
             </a>
         </div>
-        <ul class="pr-30 ml-10">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+        <div>
+            <ul class="pr-30 ml-10 nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><span class="hid">|</span></li>
+                <li>
+                    <a href="#">
+                        <img class="lin-img hid" src="/img/LinkedIn.png" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <label id="icon">
+        <i class="fas fa-bars"></i>
+      </label>
+
+        <!-- <div class="cursor-pointer md:hidden items-center" id="burger">
+            <img class="w-8" src="/img/menu.png" />
+        </div> -->
     </div>
     <!-- NavBar End -->
 
     <%- body %>
 
-    <!-- Footer Start -->
+        <!-- Footer Start -->
 
-    <footer>
-        
-      </footer>    
+        <footer></footer>
 
-       <!-- Footer End -->
+        <!-- Footer End -->
 
- <script src="/js/app.js"></script>   
+        <script src="/js/app.js"></script>
 </body>
+
 </html>

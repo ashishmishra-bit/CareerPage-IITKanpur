@@ -42,3 +42,92 @@ body {
 #menu-area.sc-menu a {
   color: #fff;
 }
+
+.lin-img {
+  height: 25px;
+}
+
+.d1 {
+  margin-top: -85px;
+  height: 600px;
+  background-size: 100%;
+}
+
+.d1 .search-box img {
+  padding: 5px;
+}
+
+.d1 .search-box button {
+  background-color: #fff;
+}
+
+.search-box {
+  display: flex;
+}
+
+.story .pic {
+  border-radius: 50%;
+  border: 1px solid #CCCCCC;
+  height: 350px;
+  width: 350px;
+}
+
+.story .h2 {
+  overflow: hidden;
+}
+
+#icon {
+  color: #000;
+  font: size 30px;
+  line-height: 30px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  label.logo {
+    font-size: 32px;
+    padding-left: 60px;
+  }
+
+  #menu-area ul {
+    margin-right: 20px;
+  }
+
+  #menu-area a {
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  #icon {
+    display: block;
+  }
+
+  #menu-area ul {
+    position: fixed;
+    width: 350px;
+    height: 30vh;
+    background: #3a277b;
+    display: block;
+    left: -1000%;
+    text-align: center;
+    margin-top: 43px;
+    transition: all 0.5s;
+    margin-left: 200px;
+  }
+
+  #menu-area li {
+    display: block;
+    margin: 20px 0;
+    line-height: 30px;
+  }
+
+  .hid {
+    display: none;
+  }
+
+  #menu-area ul.show {
+    left: 0;
+  }
+}
