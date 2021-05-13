@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  height: 4000px;
+  height: 3900px;
 }
 
 #menu-area {
@@ -41,4 +41,20 @@ body {
 
 #menu-area.sc-menu a {
   color: #fff;
+}
+
+/*Footer
+.footer{
+    margin: 0px;
+    padding:0px;
+    background-color: primary;
+
+}
+*/
+.container-footer {
+  background-color: #281b54;
+}
+
+.footer-copyright {
+  background-color: #3a277b;
 }
